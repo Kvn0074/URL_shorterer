@@ -1,0 +1,164 @@
+* {
+box-sizing: border-box;
+}
+
+html, body {
+margin: 0;
+padding: 0;
+font-family: pixel;
+}
+
+header {
+padding : 30px;
+}
+
+footer {
+height: 100px;
+}
+
+h1 {
+color: white;
+text-align: center;
+text-transform: uppercase;
+font-weight: 400;
+font-size: 5em;
+margin-top: 30px;
+margin-bottom: 10px;
+}
+
+h2 {
+color: white;
+text-align: center;
+font-size: 2.5em;
+font-weight: 200;
+}
+
+h3 {
+background: -webkit-linear-gradient(rgba(231,0,255,1), rgba(56,0,152,1));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0;
+text-transform: uppercase;
+font-size: 2em;
+padding-bottom: 30px;
+}
+
+input[type="url"]{ 
+border-radius: 3px;
+box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.4);
+padding: 17px 30px;
+border: none;
+width: 50%;
+font-family: pixel;
+font-size: 1.6em;
+}
+
+input[type="submit"]{
+background: rgb(231,0,255);
+background: linear-gradient(180deg, rgba(231,0,255,1) 0%, rgba(56,0,152,1) 100%);
+color: white;
+text-transform: uppercase;
+border-radius: 3px;
+box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.4);
+padding: 17px 30px;
+border: none;
+font-size: 1.6em;
+font-family: pixel;
+cursor: pointer;
+font-weight: 700;
+}
+
+a, a:visited {
+color: #e700ff;
+font-size: 1.2em;
+text-decoration: none;
+}
+
+.container {
+width: 1100px;
+margin: auto;
+}
+
+.pictures {
+height: 35px;
+margin: 15px;
+}
+
+.center {
+text-align: center;
+}
+
+#result{
+color: white;
+font-size: 1.5em;
+border: 1px solid rgba(255,255,255,0.6);
+padding: 20px;
+border-radius: 5px;
+text-align: center;
+display: inline-block;
+margin-top: 25px;
+/* on va centrer le block avec un text-align dans la class center */
+}
+
+#shortLink, #shortLink:visited {
+color: white;
+font-size: 1em;
+text-decoration: underline #e700ff;
+}
+
+#contact {
+margin-top: 0;
+padding-top: 5px;
+}
+
+#r_logo{
+font-size: 0.5em;
+}
+
+#trademark {
+padding-top: 50px;
+padding-bottom: 10px;
+text-align: center;	
+}
+
+#trademark h3 {
+font-size: 1em;
+padding-bottom: 5px;
+}
+
+#trademark h2 {
+color: black;
+font-size: 1.3em;
+margin-top: 3px;
+margin-bottom: 0px;
+}
+
+#brand {
+background: #eff7fc;
+padding: 30px;
+text-align: center;
+
+}
+#hello {
+background-image: url('pictures/wallpaperRocket.jpg');
+height: 500px;
+background-size: cover;
+}
+
+#hello form {
+text-align: center;
+margin-top: 30px;
+}
+
+#logo {
+height: 70px;
+}
+
+@font-face {
+font-family: "pixel";
+src: url(font/Cave-Story.ttf);
+}
+
+
+
+
